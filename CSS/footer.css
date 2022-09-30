@@ -1,0 +1,112 @@
+#footer {
+  background-color: #00071b;
+  position: relative;
+  color: white;
+  height: 430px;
+}
+
+.footer-container {
+  height: 100%;
+  width: 100%;
+}
+
+.company-name-holder {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+}
+
+.name {
+  font-size: 50px;
+  margin-left: 20px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.links a {
+  color: white;
+}
+
+.links p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.keep-touch {
+  width: 400px;
+}
+
+.imageOne {
+  position: absolute;
+  height: 25px;
+}
+
+.imageTwo {
+  width: 30px;
+}
+
+.input-email {
+  position: relative;
+  left: 20px;
+}
+
+.email-container tr {
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+  width: 350px;
+  padding: 7px 6px 10px 15px;
+  border-radius: 5px;
+}
+
+.keep-touch p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.email-input {
+  border: none;
+  background: none;
+  height: 40px;
+  width: 240px;
+  color: white;
+}
+
+.email-input:focus {
+  outline: none;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+.terms-social {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.terms-social p a {
+  color: white;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+}
+
+.facebook {
+  margin-right: 6px;
+}
+
+.media {
+  height: 30px;
+  margin-right: 14px;
+}

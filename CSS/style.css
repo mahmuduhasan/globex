@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+* {
+  font-family: "Libre Baskerville", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Header */
+/* Main */
+/* Invite */
+/* banner */
+/* Trending and Deals */
+/* Offer and Poster */
+/* Category */
+/* Review */
+/* Footer */
+#content,
+#trending,
+#offer,
+#poster {
+  margin-bottom: 50px;
+}
+
+#review,
+#footer {
+  margin-top: 50px;
+}

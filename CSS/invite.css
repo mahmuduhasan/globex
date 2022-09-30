@@ -1,0 +1,21 @@
+#invite {
+  padding: 10px 0px;
+  text-align: center;
+  width: 100%;
+}
+#invite p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #272727;
+}
+
+#invite p a {
+  color: #00398f;
+}
+.cross {
+  position: absolute;
+  right: 40px;
+  top: 11px;
+}
