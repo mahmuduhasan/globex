@@ -1,26 +1,28 @@
 #banner {
   display: flex;
   width: 100%;
+  height: 89vh;
+}
+
+.image {
+  width: 60%;
 }
 
 .image img {
-  width: 695.1px;
+  width: 100%;
+  height: 100%;
 }
 
 .bannerImage {
-  width: 653.4px;
-}
-
-.image img,
-.bannerImage {
-  height: 528px;
+  width: 100%;
+  height: 100%;
 }
 
 .text {
   text-align: center;
   position: absolute;
   top: 4%;
-  left: 63%;
+  right: 9%;
 }
 
 .text img {
@@ -71,4 +73,11 @@
   background: #002482;
   height: 14px;
   width: 14px;
+}
+
+@media screen and (min-width: 1367px) {
+  .text {
+    top: 7%;
+    right: 13%;
+  }
 }
